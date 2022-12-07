@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.layout {
+  min-height: 100vh;
+  padding-bottom: 2em;
+}
+
+.ant-layout-header h1 {
+  color: #fff;
+}
+
+.content {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}

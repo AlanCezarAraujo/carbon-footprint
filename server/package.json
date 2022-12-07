@@ -1,0 +1,22 @@
+{
+  "name": "carbon-footprint-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "node --test | tap --coverage",
+    "test:coverage": "node --test | tap --coverage --coverage-report=html --coverage-report=text"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "codecov": "^3.8.3",
+    "nodemon": "^2.0.20",
+    "tap": "^16.3.2"
+  }
+}
